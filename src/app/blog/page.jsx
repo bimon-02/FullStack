@@ -1,11 +1,9 @@
 import react from "react";
+import styles from "./page.module.css";
+
 
 const Blog = () => {
-  return (
-    <div>
-      <h1>Blog</h1>
-    </div>
-  );
+  return <div className={styles.container}>Blog</div>;
 };
 
 export default Blog;
