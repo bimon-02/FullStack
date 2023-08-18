@@ -1,12 +1,9 @@
 import react from "react";
+import styles from "./page.module.css";
+
 
 const Register = () => {
-  return (
-    <div>
-      <h1>Register</h1>
-    </div>
-  );
+  return <div className={styles.container}>Register</div>;
 };
 
 export default Register;
- 
