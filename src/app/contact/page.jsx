@@ -1,6 +1,7 @@
 import react from "react";
 import styles from "./page.module.css";
 import Image from "next/image";
+import Button from "@/components/button/button";
 
 const Contact = () => {
   return (
@@ -15,11 +16,11 @@ const Contact = () => {
           <input type="email" placeholder="Email" className={styles.input} />
           <textarea
             placeholder="Message"
-            className={styles.textarea}
+            className={styles.textArea}
             cols={30}
-            rows={30}
+            rows={10}
           ></textarea>
-          <button url="#" text="Send" />
+          <Button url="#" text="Send" />
         </form>
       </div>
     </div>
