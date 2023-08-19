@@ -1,4 +1,21 @@
 .container {
-  background-color: brown;
-  
+}
+
+.title {
+  font-size: 60px;
+  margin-bottom: 100px;
+  text-align: center;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  gap: 100px;
+}
+
+.imgContainer {
+  flex: 1;
+
+  height: 500px;
+  position: relative;
 }

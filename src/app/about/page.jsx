@@ -1,6 +1,7 @@
 import react from "react";
 import styles from "./page.module.css";
 import Image from "next/image";
+import Button from "@/components/button/button";
 
 const About = () => {
   return (
@@ -33,14 +34,27 @@ const About = () => {
             Voluptatibus at dolores soluta, animi natus commodi ipsa deleniti
             itaque enim inventore magni debitis accusantium! Quaerat similique
             sequi molestiae quibusdam omnis architecto illum autem blanditiis
-            molestias nesciunt, recusandae, reprehenderit iure quod consectetur
-            laboriosam. Libero sunt rerum enim! Ut ex pariatur explicabo.
-            Corrupti eius temporibus beatae cumque odit natus id repellendus
-            blanditiis mollitia.
+            molestias nesciunt,
           </p>
         </div>
         <div className={styles.item}>
-          <h1 className={styles.title}>what we do?</h1>
+          <h1 className={styles.title}>What we do?</h1>
+          <p className={styles.description}>
+           
+            Voluptatibus at dolores soluta, animi natus commodi ipsa deleniti
+            itaque enim inventore magni debitis accusantium!vero temporibus
+            atque recusandae ad! Dignissimos quod fuga similique ipsa.
+            <br />
+            <br />
+            Corrupti eius temporibus
+            <br />
+            <br />
+            beatae cumque odit natus id
+            <br />
+            <br />
+            repellendus blanditiis mollitia.
+          </p>
+          <Button url="/contact" text="Contact us" />
         </div>
       </div>
     </div>
