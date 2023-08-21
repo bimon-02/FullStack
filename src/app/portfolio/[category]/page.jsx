@@ -18,6 +18,7 @@ const Category = ({ params }) => {
         </div>
         <div className={styles.imgContainer}>
           <Image
+
             src="https://images.pexels.com/photos/7630928/pexels-photo-7630928.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
             alt=""
             fill={true}
@@ -36,6 +37,8 @@ const Category = ({ params }) => {
         <div className={styles.imgContainer}>
           <Image
             src="https://images.pexels.com/photos/7630928/pexels-photo-7630928.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+
+
             alt=""
             fill={true}
             className={styles.img}
