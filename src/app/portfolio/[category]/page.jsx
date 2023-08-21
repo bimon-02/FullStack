@@ -18,7 +18,27 @@ const Category = ({ params }) => {
         </div>
         <div className={styles.imgContainer}>
           <Image
-            src="https://www.pexels.com/photo/sea-black-and-white-dawn-landscape-17118488/"
+
+            src="https://images.pexels.com/photos/7630928/pexels-photo-7630928.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            alt=""
+            fill={true}
+            className={styles.img}
+          />
+        </div>
+      </div>
+      <div className={styles.item}>
+        <div className={styles.content}>
+          <h1 className={styles.title}>Digital Storyteller</h1>
+          <p className={styles.description}>
+            Handcrafting award winning digital experiences
+          </p>
+          <Button url="#" text="See More" />
+        </div>
+        <div className={styles.imgContainer}>
+          <Image
+            src="https://images.pexels.com/photos/7630928/pexels-photo-7630928.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+
+
             alt=""
             fill={true}
             className={styles.img}

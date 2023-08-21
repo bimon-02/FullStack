@@ -1,0 +1,59 @@
+.container {
+  /* Your container styles here */
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  padding: 20px; /* Added padding for spacing */
+}
+
+.info {
+  flex: 2;
+  padding-right: 20px; /* Added right padding for spacing */
+}
+
+.imageContainer {
+  width: 50%; /* Set a width for the image container */
+}
+
+/* Styles for other elements within the component */
+.title {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.description {
+  font-size: 16px;
+  color: #666;
+}
+
+.author {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.avatar {
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.username {
+  font-size: 14px;
+}
+
+.image {
+  width: 100%;
+  height: auto;
+}
+
+.content {
+  margin-top: 20px;
+}
+
+.text {
+  font-size: 18px;
+  line-height: 1.5;
+}
