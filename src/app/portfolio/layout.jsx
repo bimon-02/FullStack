@@ -1,9 +1,11 @@
 import React from 'react'
+import styles from './page.module.css'
 
-function Layout() {
+function Layout( {children} ) {
   return (
       <div>
-          <h1>Our Works</h1>
+      <h1 className={styles.mainTitle}>Our Works</h1>
+      {children}
     </div>
   )
 }
